@@ -4,6 +4,7 @@ export interface Service {
   description: string;
   icon: JSX.Element;
   color: string;
+  highlights: string[];
 }
 
 export interface Project {
